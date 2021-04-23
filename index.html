@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miss Jones' contact form</title>
+    <link rel="stylesheet" href="./Form.css" />
+  </head>
+  <body>
+    <!-- modify this form HTML and place wherever you want your form -->
+
+    <form id="form" action="https://formspree.io/f/mleadzrz" method="POST">
+      <h1>Contact Me</h1>
+
+      <!-- Name -->
+      <div class="info">
+        <label class="label" for="name"></label>
+        <input
+          class="input"
+          type="name"
+          id="name"
+          for="name"
+          placeholder="Your Name"
+          required
+        />
+        <!-- Email -->
+      </div>
+      <div class="info">
+        <label class="label" for="email"></label>
+        <input
+          class="input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="info@yourdomain.com"
+          required
+        />
+      </div>
+      <!-- Phone Number -->
+      <div class="info">
+        <label class="label" for="number"></label>
+        <input
+          class="input"
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="072 123 4567"
+          required
+        />
+      </div>
+      <!-- Message -->
+      <div class="info">
+        <label class="label" for="message"></label>
+
+        <textarea
+          class="input"
+          name="message"
+          placeholder="Type Message Here"
+        ></textarea>
+      </div>
+
+      <!-- your other form fields go here -->
+      <button class="Contact-button" type="submit">Send</button>
+    </form>
+  </body>
+</html>
