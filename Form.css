@@ -38,6 +38,7 @@ h1 {
   padding: 10% 15%;
   border: none;
   margin-bottom: 10px;
+  outline: none;
 }
 
 .input::placeholder {
